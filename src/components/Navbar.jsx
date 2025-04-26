@@ -15,10 +15,10 @@ const Navbar = () => {
   ]
 
   return (
-    <nav className="fixed w-full bg-white shadow-lg z-50">
+    <nav className="fixed w-full bg-black  shadow-lg z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="text-2xl font-extrabold text-indigo-600">Arjit Kumar</div>
+          <div className="text-2xl font-extrabold text-white">Arjit Kumar</div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
@@ -29,7 +29,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={500}
                 offset={-60}
-                className="text-gray-700 hover:text-indigo-600 transition-colors relative cursor-pointer after:absolute after:w-0 after:h-[2px] after:bg-indigo-600 after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300"
+                className="text-white hover:text-indigo-200 transition-colors relative cursor-pointer after:absolute after:w-0 after:h-[2px] after:bg-indigo-200 after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300"
               >
                 {item.name}
               </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-indigo-600 focus:outline-none"
+              className="text-white hover:text-indigo-200 focus:outline-none"
             >
               {isOpen ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
             </button>

@@ -21,13 +21,13 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section id="skills" className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-center text-gray-800 mb-16"
+          className="text-4xl font-extrabold text-center text-indigo-400 mb-16"
         >
           Skills
         </motion.h2>
@@ -39,16 +39,16 @@ const Skills = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.15 }}
-              className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 p-6"
+              className="bg-gray-800 rounded-2xl shadow-md hover:shadow-2xl transition-shadow duration-300 p-6"
             >
-              <h3 className="text-xl font-semibold text-indigo-600 mb-4 text-center border-b pb-2">
+              <h3 className="text-xl font-semibold text-indigo-400 mb-4 text-center border-b pb-2">
                 {category.title}
               </h3>
               <div className="flex flex-wrap gap-2 justify-center">
                 {category.skills.map((skill, i) => (
                   <span
                     key={i}
-                    className="px-3 py-1 bg-indigo-50 text-indigo-700 text-sm rounded-full hover:bg-indigo-100 transition"
+                    className="px-3 py-1 bg-indigo-600 text-white text-sm rounded-full hover:bg-indigo-500 transition"
                   >
                     {skill}
                   </span>
@@ -62,4 +62,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Skills;

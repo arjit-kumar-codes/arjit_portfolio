@@ -21,7 +21,7 @@ const Hero = () => {
 
           <div className="flex justify-center gap-4 flex-wrap">
             <a
-              href="/Arjit_Resume.pdf"
+              href="/arjit_kumar_react_be_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-indigo-600 text-white font-medium rounded-full shadow-lg hover:bg-indigo-700 transition duration-300"
@@ -41,4 +41,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
