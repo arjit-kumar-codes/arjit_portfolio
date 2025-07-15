@@ -31,7 +31,7 @@ const Contact = () => {
                 <FiPhone className="text-indigo-400 text-2xl" />
                 <h3 className="text-lg font-semibold text-white">Phone</h3>
               </div>
-              <p className="text-gray-300">+91 7906155045</p>
+              <p className="text-gray-300">+91 7060955045</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all col-span-1 sm:col-span-2 border border-gray-700">
