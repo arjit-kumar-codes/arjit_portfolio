@@ -1,5 +1,6 @@
 import About from './components/About'
 import Contact from './components/Contact'
+import Education from './components/Education'
 import Experience from './components/Experience'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
@@ -11,10 +12,11 @@ function App() {
     <div className="bg-gray-100 min-h-screen">
       <Navbar />
       <Hero />
+      <About />
       <Experience />
       <Projects />
       <Skills />
-      <About />
+      <Education/>
       <Contact />
     </div>
   )

@@ -11,7 +11,7 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h2 className="text-4xl font-extrabold text-indigo-400 mb-12">Contact Me</h2>
+          <h2 className="text-4xl font-extrabold text-white mb-12">Contact Me</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all border border-gray-700">
               <div className="flex items-center gap-4 mb-3">
