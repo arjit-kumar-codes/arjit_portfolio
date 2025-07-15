@@ -9,9 +9,9 @@ const projects = [
     tech: ["React", "Redux", "Material-UI"]
   },
   {
-    title: "HR Management App",
-    description: "HR app for salary, leaves, inventory & reports. Features automated payroll and role-based authentication.",
-    link: "https://staginghr.excellencetechnologies.in/#/app/overview",
+    title: " WaveX Ai",
+    description: "Built with React and Tailwind CSS, this AI-powered chat app lets users enter a website URL to get real-time business insights. Users can ask questions, and the system responds with relevant, AI-generated answers, based on the site's data.",
+    link: "https://www.wavexai.io/",
     tech: ["React", "Redux Toolkit", "Tailwind CSS"]
   },
   {

@@ -16,7 +16,7 @@ const Hero = () => {
             Front-end Developer
           </h2>
           <p className="text-base sm:text-lg text-gray-300 max-w-2xl mx-auto mb-10">
-            Passionate Software Developer with 2+ years of experience crafting interactive, scalable web apps using <span className="text-indigo-400 font-semibold">JavaScript</span>, <span className="text-indigo-400 font-semibold">React.js</span>, <span className="text-indigo-400 font-semibold">Next.js</span>, and <span className="text-indigo-400 font-semibold">TypeScript</span>.
+            Passionate Software Developer with 2 years of experience crafting interactive, scalable web apps using <span className="text-indigo-400 font-semibold">JavaScript</span>, <span className="text-indigo-400 font-semibold">React.js</span>, <span className="text-indigo-400 font-semibold">Next.js</span>, and <span className="text-indigo-400 font-semibold">TypeScript</span>.
           </p>
 
           <div className="flex justify-center gap-4 flex-wrap">
